@@ -1,0 +1,315 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: "Georgia",serif;
+}
+
+
+h1{
+color: green;
+font-family:"Copperplate",fantasy;
+font-size: 50px;
+}
+h1:hover{
+color: #393053;
+}
+
+
+h2{
+
+font-family:"Copperplate",fantasy;
+}
+
+.secondheading{
+  color: #393053;
+}
+
+.heading{
+  font-size: 84px;
+  text-align: center;
+  border: outset;
+  font-family:"Copperplate",fantasy;
+}
+
+.minih1{
+color: #393053;
+font-family:"Copperplate",fantasy;
+font-size:15px;
+text-align: center;
+}
+
+.petgif{
+  width:  100px;
+  height: 100px;
+}
+
+.bg {
+  /* The image used */
+  background-image:url("https://stjohnsgardencentre.co.uk/wp-content/uploads/2016/05/cat-rabbit-hamster-dog.jpg");
+  
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Merriweather",serif;
+  font-weight: bold;
+  -webkit-text-stroke: 1px black;
+  color: #1A0000;
+}
+
+
+
+
+li a:hover:not(.active) {
+  background-color: #03C988;
+}
+
+li a.active {
+  color: white;
+  background-color: #03C988;
+}
+
+li a {
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.activetwo) {
+  background-color: #567189;
+}
+
+li a.activetwo {
+  color: white;
+  background-color: #567189;
+}
+
+
+.picturesrow{
+  height:80px;
+  width:80px;
+}
+
+
+.user_name{
+    font-size:14px;
+    font-weight: bold;
+}
+.comments-list .media{
+    border-bottom: 1px dotted #ccc;
+}
+
+.containerone{
+  text-align: center;
+  background-color:#16FF00;
+  background-image:url("https://ak7.picdn.net/shutterstock/videos/29917567/thumb/5.jpg?ip=x480");
+  weight:300px;
+  height: 300px;
+
+}
+
+
+.containertwo{
+  text-align: center;
+  align: center;
+  background-color: white;
+  background-image:url("https://t3.ftcdn.net/jpg/01/56/26/10/360_F_156261031_lCI6lUoQ2AEET8oGZAeIQSk8z5tmBAin.jpg");
+}
+.containerthree{
+  text-align: center;
+  align: center;
+  background-color: #DDDDDD;
+  background-image:url("https://img.freepik.com/premium-photo/little-kitten-isolated-white-background-tabby-cat-baby_360749-2315.jpg?w=2000");
+
+}
+
+.italic{
+  font-style:italic;
+  font-size: 15px;
+}
+.veterinarypictures{
+  height:98px;
+  width:98px;
+}
+.containerfour{
+  text-align: center;
+  background-image:url("https://st2.depositphotos.com/2547867/9409/v/950/depositphotos_94095020-stock-illustration-paw-prints-background-green.jpg");
+  background-color: #16FF00;
+  weight:250px;
+  height: 250px;
+}
+.p{
+  color: white;
+}
+.petfour{
+  height: 50px;
+  width:  50px;
+}
+.btn {
+  background: #351f73;
+  background-image: -webkit-linear-gradient(top, #351f73, #2980b9);
+  background-image: -moz-linear-gradient(top, #351f73, #2980b9);
+  background-image: -ms-linear-gradient(top, #351f73, #2980b9);
+  background-image: -o-linear-gradient(top, #351f73, #2980b9);
+  background-image: linear-gradient(to bottom, #351f73, #2980b9);
+  -webkit-border-radius: 42;
+  -moz-border-radius: 42;
+  border-radius: 42px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 14px 16px 15px 17px;
+  border: solid #1ce809 6px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.pic{
+  height: 300px;
+  weight: 300px;
+}
+
+.containerfive{
+  padding-top: 25px;
+}
+
+.btnone {
+  background: #4a626e;
+  background-image: -webkit-linear-gradient(top, #4a626e, #5d666b);
+  background-image: -moz-linear-gradient(top, #4a626e, #5d666b);
+  background-image: -ms-linear-gradient(top, #4a626e, #5d666b);
+  background-image: -o-linear-gradient(top, #4a626e, #5d666b);
+  background-image: linear-gradient(to bottom, #4a626e, #5d666b);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btnone:hover {
+  background: #26db1c;
+  background-image: -webkit-linear-gradient(top, #26db1c, #3c5c2f);
+  background-image: -moz-linear-gradient(top, #26db1c, #3c5c2f);
+  background-image: -ms-linear-gradient(top, #26db1c, #3c5c2f);
+  background-image: -o-linear-gradient(top, #26db1c, #3c5c2f);
+  background-image: linear-gradient(to bottom, #26db1c, #3c5c2f);
+  text-decoration: none;
+}
+
+
+
+
+.fw-normal{
+  font-size: 50px;
+  font-family:"Copperplate",fantasy;
+  color: #393053;
+  border: outset;
+  text-align: center;
+}
+ .containersix{
+   text-align: center;
+   background-image:url("https://petfood.symrise.com/fileadmin/diana-pet-food/Sym_Pet_Food_website_homepage-header-shader-1390x738.jpg");
+   background-color: #16FF00;
+   weight:290px;
+   height: 290px;
+   text color: white;
+ }
+ .fw-normaltwo{
+   font-size: 50px;
+   font-family:"Copperplate",fantasy;
+   color: white;
+   border: outset;
+   text-align: center;
+ }
+ .btntwo {
+   background: #f7f9fa;
+   background-image: -webkit-linear-gradient(top, #f7f9fa, #eaeced);
+   background-image: -moz-linear-gradient(top, #f7f9fa, #eaeced);
+   background-image: -ms-linear-gradient(top, #f7f9fa, #eaeced);
+   background-image: -o-linear-gradient(top, #f7f9fa, #eaeced);
+   background-image: linear-gradient(to bottom, #f7f9fa, #eaeced);
+   -webkit-border-radius: 23;
+   -moz-border-radius: 23;
+   border-radius: 23px;
+   font-family: Georgia;
+   color: #0f0c0f;
+   font-size: 30px;
+   padding: 10px 20px 10px 20px;
+   text-decoration: none;
+ }
+
+ .btntwo:hover {
+   background: #3cb0fd;
+   text-decoration: none;
+ }
+ .context-dark, .bg-gray-dark, .bg-primary {
+     color: rgba(255, 255, 255, 0.8);
+ }
+
+ .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+     color: #ffffff;
+ }
+ .nav-list li {
+     padding-top: 5px;
+     padding-bottom: 5px;
+ }
+
+ .nav-list li a:hover:before {
+     margin-left: 0;
+     opacity: 1;
+     visibility: visible;
+ }
+
+ ul, ol {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+
+ .social-inner {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+     padding: 23px;
+     font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+     text-transform: uppercase;
+     color: rgba(255, 255, 255, 0.5);
+ }
+ .social-inner:hover {
+   color: green;
+ }
+ .social-container .col {
+     border: 1px solid rgba(255, 255, 255, 0.1);
+ }
+ .nav-list li a:before {
+     content: "\f14f";
+     font: 400 21px/1 "Material Design Icons";
+     color: #4d6de6;
+     display: inline-block;
+     vertical-align: baseline;
+     margin-left: -28px;
+     margin-right: 7px;
+     opacity: 0;
+     visibility: hidden;
+     transition: .22s ease;
+ }
